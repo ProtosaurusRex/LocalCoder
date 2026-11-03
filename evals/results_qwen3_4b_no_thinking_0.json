@@ -1,0 +1,37 @@
+[
+  {
+    "task": "01_off_by_one",
+    "passed": true,
+    "steps": 5,
+    "tool_errors": 0,
+    "seconds": 262.2
+  },
+  {
+    "task": "02_empty_input",
+    "passed": true,
+    "steps": 5,
+    "tool_errors": 0,
+    "seconds": 216.9
+  },
+  {
+    "task": "03_rename_across_files",
+    "passed": true,
+    "steps": 7,
+    "tool_errors": 1,
+    "seconds": 694.8
+  },
+  {
+    "task": "04_add_feature",
+    "passed": true,
+    "steps": 8,
+    "tool_errors": 0,
+    "seconds": 934.1
+  },
+  {
+    "task": "05_parse_dates",
+    "passed": true,
+    "steps": 5,
+    "tool_errors": 0,
+    "seconds": 175.1
+  }
+]

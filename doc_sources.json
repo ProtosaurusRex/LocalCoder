@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "name": "langgraph",
+      "description": "LangGraph (Python): graphs, state, interrupts, persistence, streaming",
+      "index": "https://langchain-ai.github.io/langgraph/llms.txt",
+      "domains": [
+        "langchain-ai.github.io",
+        "docs.langchain.com"
+      ]
+    },
+    {
+      "name": "langchain",
+      "description": "LangChain (Python): models, tools, messages, integrations such as ChatOllama",
+      "index": "https://python.langchain.com/llms.txt",
+      "domains": [
+        "python.langchain.com",
+        "docs.langchain.com"
+      ]
+    },
+    {
+      "name": "langchain-integrations",
+      "description": "LangChain (Python) chat model integrations, e.g. ChatOllama, ChatAnthropic",
+      "index": "https://docs.langchain.com/oss/python/integrations/chat",
+      "domains": [
+        "docs.langchain.com"
+      ]
+    },
+    {
+      "name": "mcp",
+      "description": "Model Context Protocol: specification, concepts, building servers and clients",
+      "index": "https://modelcontextprotocol.io/llms.txt",
+      "domains": [
+        "modelcontextprotocol.io"
+      ]
+    },
+    {
+      "name": "python",
+      "description": "Python 3 standard library reference",
+      "index": "https://docs.python.org/3/library/index.html",
+      "domains": [
+        "docs.python.org"
+      ]
+    }
+  ]
+}

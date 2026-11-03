@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Local agent state (SQLite also creates -wal/-shm/-journal files while running)
+checkpoints.db*
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Eval traces (regenerated every run)
+evals/traces/
+
+# Agent scratch area (created automatically)
+workspace/
+
+# Editors and OS files (OneDrive/Windows can add desktop.ini)
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

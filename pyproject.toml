@@ -1,0 +1,39 @@
+[project]
+name = "localcoder"
+version = "0.1.0"
+description = "A local coding agent: Ollama + LangGraph, human-approved edits, docs lookup, MCP server"
+readme = "README.md"
+authors = [
+    { name = "Prollo", email = "pjrollo01@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+    "langchain-core>=1.6.10",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.15",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "markdownify>=1.2.3",
+    "mcp[cli]>=2.3.0",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+localcoder = "localcoder.cli:main"
+localcoder-mcp = "localcoder.mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.10.4,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
